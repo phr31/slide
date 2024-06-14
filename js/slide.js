@@ -26,6 +26,7 @@ export default class Slide {
     this.moveSlide(finalPosition);
   }
   onEnd(event) {
+    console.log(event);
     this.wrapper.removeEventListener("mousemove", this.onMove);
     this.dist.finalPosition = this.dist.movePosition;
   }
