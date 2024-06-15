@@ -7,7 +7,7 @@ ul {
   list-style: none;
 }
 img {
-  display: block;git 
+  display: block;
   max-width: 100%;
 }
 .slide-wrapper {
@@ -15,7 +15,6 @@ img {
 }
 .slide {
   display: flex;
-  transform: translate3d(0, 0, 0);
 }
 .slide li {
   max-width: 800px;
